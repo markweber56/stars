@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { FaStar } from "react-icons/fa";
+import StarRating from "./components/StarRating";
 
 function App() {
   return (
@@ -12,16 +13,6 @@ function App() {
       </header>
     </div>
   );
-}
-
-function StarRating() {
-	return [
-		<FaStar color="red" />,
-		<FaStar color="red" />,
-		<FaStar color="red" />,
-		<FaStar color="grey" />,
-		<FaStar color="grey" />
-	];
 }
 
 export default App;
